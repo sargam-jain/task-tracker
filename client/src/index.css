@@ -1,0 +1,74 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+form input {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 8px;
+}
+form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+.project {
+  background: #e0e0e0;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+.task {
+  background: white;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.task button {
+  margin-right: 5px;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.light {
+  background-color: #ffffff;
+  color: #222222;
+}
+
+.dark {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.theme-toggle-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+}
+
+.theme-toggle {
+  padding: 0.5rem 1rem;
+  background-color: #888;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
